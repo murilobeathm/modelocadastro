@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto</title>
+</head>
+<body>
+    <h2>Contacte-nos</h2>
+    <p><label for="nome">Nome:</label>
+       <input type="text" id="nome" name="nome" size="60" max="60">
+    </p>
+    <p><label for="empresa">Empresa:</label>
+        <input type="text" id="empresa" name="empresa" size="58" max="58">
+    </p>
+    <p><label for="email">E-mail:</label>
+    <input type="text" id="email" name="email" size="60" max="60">
+    </p>
+    <p><label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" name="telefone" size="58" max="58"> 
+    </p>
+    <p><label for="pais">País:</label>
+    <select name="pais" id="pais">
+        <option value="0">--Selecione um país --</option>
+        <optgroup label="Paises"> 
+            <option value="SE">Suécia</option>
+            <option value="VN">Vietname</option>
+            <option value="ML">Mali</option>
+        </optgroup>
+    </select>
+    </p>
+    <p>
+        <label>Quero ser contactado:</label>
+        <input type="radio" id="portelefone" value="tel"> 
+        <label for="portelefone">por telefone</label>
+        <input type="radio" id="poremail" value="email">
+        <label for="poremail">por e-mail</label>
+    </p>
+    <p>
+        <label for="msg">Mensagem:</label>
+        <textarea  cols="80" rows="10" maxlength="200"></textarea>
+    </p>
+    <p><input type="checkbox" id="autorizo" name="autorizo" value="S">
+        <label for="autorizo">Autorizo a Países do Mundo a guardar os meus dados pessoais com o intuito de responder ao meu pedido de contato</label>
+    </p>
+    <p>
+        <input type="submit" id="btsubmit" value="Enviar mensagem">
+    </p>
+
+    <h2>Países do mundo</h2>
+    <li><a href="suecia.html" rel="next" target="_self">Suécia</a></li>
+    <li><a href="vietname.html" rel="next" target="_self">Vietname</a></li>
+    <li><a href="mali.html" rel="next" target="_self">Mali</a></li>
+
+</body>
+</html>
