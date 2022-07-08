@@ -1,0 +1,24 @@
+.tabDados {
+    border-collapse: collapse;
+}
+
+.tabDados,.tabDados th, .tabDados td {
+    border: 1px solid #000;
+}
+
+.tabDados th, .tabDados td{
+    padding: 15px;
+}
+.tabDados caption{
+    caption-side: bottom;
+    margin-top: 15px;
+}
+.tabDados thead tr{
+    background-color: #aaa;
+}
+.tabDados tfoot tr{
+    background-color: #ddd;
+}
+.tabDados tbody tr:nth-child(odd){
+    background-color: cyan;
+}
